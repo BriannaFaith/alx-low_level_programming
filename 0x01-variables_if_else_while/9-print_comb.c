@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - prints all possible combinations of single-digit numbers
- *
- * Return: Always 0 (Success)
- */
+*main - Prints all single digits with , and space followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
 	int digit;
@@ -18,5 +18,6 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	putchar('\n'); 
-	return (0); }
+	putchar('\n');
+	return (0);
+}
