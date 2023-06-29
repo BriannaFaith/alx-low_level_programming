@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-
-void trim(char *s);
 
 int main(void)
 {
