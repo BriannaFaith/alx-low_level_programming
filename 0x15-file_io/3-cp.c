@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * check97 - checks for the correct number of arguments
  * @argc: number of arguments
@@ -16,7 +15,6 @@ void check97(int argc)
 		exit(97);
 	}
 }
-
 /**
  * check98 - checks that file_from exists and can be read
  * @check: checks if true of false
@@ -48,6 +46,7 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
  *
  * Return: void
  */
+
 void check99(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
