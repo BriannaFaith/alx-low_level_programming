@@ -3,9 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-char *_memset(char *s, char b, unsigned int n)
+int _isupper(int c)
 {
-	return memset(s, b, n);
+	return (c >= 'A' && c <= 'Z');
 }
-
-
